@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 
 
-client.login('NTEyNzQ5NTQ4MjU5NzcwMzcw.Ds-CIg.oJouMLa0-O3EiUYz545FVGogWJk');
+client.login('NTA0NzI0Nzg3NzI2Mzg1MTgz.DuLNlQ.Qiqao54uCtNDj50DD4n14sns23A');
 
 
 
@@ -15,7 +15,7 @@ client.login('NTEyNzQ5NTQ4MjU5NzcwMzcw.Ds-CIg.oJouMLa0-O3EiUYz545FVGogWJk');
 
 
 client.on('message', message => {
-    var prefix = "$";
+    var prefix = "N";
     
         if (message.author.id === client.user.id) return;
         if (message.guild) {
@@ -44,7 +44,7 @@ client.on('message', message => {
 	
 	
 	
-client.login('NTEyNzQ5NTQ4MjU5NzcwMzcw.Ds-CIg.oJouMLa0-O3EiUYz545FVGogWJk');
+client.login('NTA0NzI0Nzg3NzI2Mzg1MTgz.DuLNlQ.Qiqao54uCtNDj50DD4n14sns23A');
 
 
 
@@ -67,7 +67,7 @@ client.login('NTEyNzQ5NTQ4MjU5NzcwMzcw.Ds-CIg.oJouMLa0-O3EiUYz545FVGogWJk');
 
 client.on('message', message => {
     let args = message.content.split(' ').slice(1).join(' ');
-    if (message.content.startsWith('$bc-bot')){ // البريفكس والامر
+    if (message.content.startsWith('Nbc-bot')){ // البريفكس والامر
     if(!message.author.id === '') return;
     message.channel.sendMessage('جار ارسال الرسالة :white_check_mark:')
     client.users.forEach(m =>{
@@ -76,4 +76,4 @@ client.on('message', message => {
     }
     });
 
-client.login('NTEyNzQ5NTQ4MjU5NzcwMzcw.Ds-CIg.oJouMLa0-O3EiUYz545FVGogWJk');
+client.login('NTA0NzI0Nzg3NzI2Mzg1MTgz.DuLNlQ.Qiqao54uCtNDj50DD4n14sns23A');
